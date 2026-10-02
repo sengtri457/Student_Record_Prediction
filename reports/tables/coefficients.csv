@@ -1,0 +1,6 @@
+feature,standardized_coef,unstandardized_coef,interpretation
+midterm_score,4.0621,0.3011,Points added per std increase
+study_hours_week,2.1891,0.3968,Points added per std increase
+previous_gpa,2.056,4.3972,Points added per std increase
+assignment_avg,2.0312,0.1882,Points added per std increase
+attendance_pct,1.9774,0.1907,Points added to final score per standard deviation increase

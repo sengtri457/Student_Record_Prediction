@@ -1,0 +1,28 @@
+seed: 42
+target: final_score
+features:
+  - attendance_pct
+  - study_hours_week
+  - assignment_avg
+  - midterm_score
+  - previous_gpa
+split:
+  test_size: 0.20
+  train_size: 0.80
+paths:
+  raw: data/raw/students_raw.csv
+  data_source: data/raw/DATA_SOURCE.md
+  data_dictionary: data/raw/DATA_DICTIONARY.md
+  interim: data/interim/students_clean.csv
+  train: data/processed/train.csv
+  test: data/processed/test.csv
+  figures: reports/figures
+  tables: reports/tables
+  models: models
+models:
+  linear_regression: {}
+  random_forest:
+    n_estimators: 300
+    max_depth: null
+    random_state: 42
+cv_folds: 5

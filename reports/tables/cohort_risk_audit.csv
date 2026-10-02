@@ -1,0 +1,399 @@
+student_id,attendance_pct,study_hours_week,assignment_avg,midterm_score,previous_gpa,final_score,predicted_final_score,risk_tier,risk_badge,actionable_prescription
+STU_0001,73.4,26.2,90.1,76.9,3.39,82.9,81.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0002,73.0,18.3,82.8,73.3,3.04,66.4,74.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0003,84.5,22.4,100.0,83.1,3.5,88.6,86.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0004,93.5,27.1,100.0,96.7,3.53,97.1,93.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0005,73.0,24.0,77.2,77.0,3.01,73.0,76.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0006,79.4,17.0,92.6,72.0,2.62,75.1,74.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0007,87.4,21.3,100.0,92.4,3.82,100.0,90.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0008,84.8,24.8,98.1,94.8,3.54,88.7,90.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0009,74.0,18.8,78.8,66.4,2.9,67.1,70.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0010,86.5,26.2,88.1,89.7,3.66,93.7,88.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0012,66.6,22.0,84.3,68.8,2.96,73.2,72.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0013,71.2,20.2,96.8,66.8,2.84,78.7,74.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0014,66.5,16.4,70.7,52.7,2.04,64.3,59.1,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +10.9 points to reach 70. Prescription: Add +13.7 hrs/week study AND improve attendance by +28.6%.
+STU_0015,62.7,10.5,62.0,60.6,2.4,55.5,58.4,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +11.6 points to reach 70. Prescription: Add +14.6 hrs/week study AND improve attendance by +30.4%.
+STU_0016,67.9,23.4,72.4,85.5,2.96,74.5,76.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0017,77.2,14.1,75.1,56.8,2.47,68.7,64.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.8 points to reach 70. Prescription: Add +7.3 hrs/week study AND improve attendance by +15.2%.
+STU_0018,81.8,21.1,80.9,86.3,3.12,86.7,80.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0019,76.0,13.5,77.0,62.4,2.21,66.8,64.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.4 points to reach 70. Prescription: Add +6.8 hrs/week study AND improve attendance by +14.2%.
+STU_0020,64.3,11.4,67.4,57.5,2.28,55.4,58.6,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +11.4 points to reach 70. Prescription: Add +14.4 hrs/week study AND improve attendance by +29.9%.
+STU_0021,100.0,27.6,100.0,100.0,3.88,100.0,97.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0022,86.3,19.9,76.5,67.2,3.04,71.9,74.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0023,77.85,24.3,88.9,83.3,3.16,80.8,82.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0024,69.6,12.6,66.1,61.4,2.37,62.5,61.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +8.6 points to reach 70. Prescription: Add +10.8 hrs/week study AND improve attendance by +22.5%.
+STU_0025,76.4,15.1,73.6,76.8,2.76,76.9,71.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0026,87.3,22.1,74.0,81.9,2.88,81.1,78.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0027,60.7,15.1,70.3,64.8,2.66,65.4,63.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.2 points to reach 70. Prescription: Add +7.8 hrs/week study AND improve attendance by +16.3%.
+STU_0028,85.9,23.8,99.9,82.9,3.27,87.8,85.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0029,78.3,15.7,87.5,71.5,2.85,73.8,73.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0030,64.5,17.5,78.2,72.3,2.74,71.9,69.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.4 points to reach 70. Prescription: Add +0.5 hrs/week study AND improve attendance by +1.0%.
+STU_0031,64.9,15.7,74.1,73.6,3.01,57.0,69.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.3 points to reach 70. Prescription: Add +0.4 hrs/week study AND improve attendance by +0.8%.
+STU_0032,84.3,34.1,100.0,100.0,4.0,97.1,97.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0033,76.2,25.9,80.3,83.8,2.87,80.5,79.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0034,71.7,13.6,74.6,63.2,2.31,59.9,64.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.9 points to reach 70. Prescription: Add +7.4 hrs/week study AND improve attendance by +15.5%.
+STU_0035,95.2,23.0,100.0,97.0,3.54,94.0,92.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0036,66.2,16.4,76.6,62.4,2.35,64.0,64.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.6 points to reach 70. Prescription: Add +7.1 hrs/week study AND improve attendance by +14.7%.
+STU_0037,89.9,21.3,89.3,74.3,3.36,90.3,81.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0038,50.1,18.3,58.9,62.3,2.27,64.4,58.4,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +11.6 points to reach 70. Prescription: Add +14.6 hrs/week study AND improve attendance by +30.4%.
+STU_0039,54.5,12.1,63.2,54.1,2.57,54.9,56.5,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +13.5 points to reach 70. Prescription: Add +17.0 hrs/week study AND improve attendance by +35.4%.
+STU_0040,79.6,20.3,84.0,77.6,2.75,75.8,76.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0041,87.7,24.9,94.1,86.5,3.64,87.9,88.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0042,79.5,22.3,89.6,90.3,3.14,82.1,83.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0043,64.4,19.3,87.0,64.5,2.86,71.4,70.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0044,74.5,16.9,77.8,92.8,3.01,75.0,78.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0045,55.4,12.8,73.5,64.4,1.89,55.3,59.0,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +11.0 points to reach 70. Prescription: Add +13.9 hrs/week study AND improve attendance by +28.8%.
+STU_0046,74.8,24.5,75.9,73.7,2.78,76.8,74.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0047,75.6,16.7,80.2,71.6,2.54,73.0,70.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0048,82.9,26.3,94.3,96.2,3.14,85.8,88.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0049,78.4,34.6,77.4,92.8,2.77,88.5,85.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0050,54.0,10.1,67.1,57.3,2.48,54.8,56.9,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +13.1 points to reach 70. Prescription: Add +16.5 hrs/week study AND improve attendance by +34.3%.
+STU_0051,80.9,24.3,93.4,88.2,2.99,85.3,84.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0052,79.9,26.4,80.3,77.8,3.21,83.1,80.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0053,65.3,18.9,76.7,69.2,2.56,68.4,68.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.7 points to reach 70. Prescription: Add +2.1 hrs/week study AND improve attendance by +4.5%.
+STU_0054,87.1,27.5,96.4,88.8,2.85,88.7,86.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0055,85.1,28.4,90.3,94.0,3.18,86.7,88.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0056,82.6,26.7,94.0,100.0,3.73,91.6,92.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0057,69.0,21.6,79.1,73.2,2.58,71.3,71.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0058,68.7,21.0,74.6,58.1,2.72,64.2,66.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +3.3 points to reach 70. Prescription: Add +4.2 hrs/week study AND improve attendance by +8.7%.
+STU_0059,78.0,21.5,90.8,87.6,3.19,82.2,82.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0060,80.6,25.7,90.0,94.4,3.56,82.7,88.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0061,85.0,19.1,83.8,72.7,3.06,74.8,76.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0062,76.4,18.3,83.2,73.7,3.28,74.8,75.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0063,62.7,15.4,63.2,70.4,2.41,62.5,63.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.5 points to reach 70. Prescription: Add +8.2 hrs/week study AND improve attendance by +17.0%.
+STU_0064,67.3,14.5,76.8,67.9,2.13,64.0,64.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.4 points to reach 70. Prescription: Add +6.8 hrs/week study AND improve attendance by +14.2%.
+STU_0065,85.5,26.6,92.1,87.1,3.26,86.4,86.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0066,90.2,37.1,98.4,100.0,3.68,100.0,98.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0067,81.0,20.7,86.4,72.6,2.73,79.0,75.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0068,92.6,31.9,100.0,88.1,3.21,89.4,91.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0069,78.4,24.2,84.7,81.5,3.25,76.7,81.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0070,68.1,17.7,77.4,75.4,2.7,67.2,70.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0071,80.0,21.0,92.1,89.5,3.17,81.9,83.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0072,79.6,28.6,100.0,100.0,3.5,91.8,92.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0073,68.6,20.6,84.8,83.2,2.93,74.3,76.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0074,100.0,26.4,100.0,100.0,3.47,90.6,95.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0075,61.7,5.8,50.3,37.3,2.04,43.5,45.5,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +24.5 points to reach 70. Prescription: Add +30.9 hrs/week study AND improve attendance by +38.3%.
+STU_0077,82.3,27.2,81.9,88.1,3.01,83.8,83.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0078,76.9,18.6,67.6,79.3,2.63,69.6,72.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0079,97.4,17.8,91.8,86.2,2.67,80.7,82.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0080,64.8,6.6,66.4,53.4,1.94,50.5,53.9,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +16.1 points to reach 70. Prescription: Add +20.3 hrs/week study AND improve attendance by +35.2%.
+STU_0081,75.0,16.9,71.0,77.1,2.88,71.6,72.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0082,75.8,24.6,84.3,91.8,2.8,78.8,81.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0083,83.1,24.9,100.0,98.8,3.43,93.6,91.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0084,74.0,20.9,89.7,67.9,2.52,66.5,72.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0085,65.4,18.5,75.0,67.6,2.69,66.8,67.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.1 points to reach 70. Prescription: Add +2.6 hrs/week study AND improve attendance by +5.5%.
+STU_0086,64.4,17.5,74.5,67.4,2.79,68.9,67.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.4 points to reach 70. Prescription: Add +3.0 hrs/week study AND improve attendance by +6.3%.
+STU_0087,83.3,23.2,95.6,87.4,3.23,86.3,85.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0088,74.8,21.3,95.7,82.7,3.19,91.8,81.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0089,82.8,18.8,77.4,67.4,2.62,72.6,71.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0090,88.4,20.2,88.9,83.4,3.16,78.6,82.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0091,78.9,26.6,84.5,71.8,3.46,79.9,80.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0092,96.6,26.3,94.4,94.7,3.77,86.7,93.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0093,71.4,21.3,77.6,69.8,2.36,68.6,69.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.2 points to reach 70. Prescription: Add +0.3 hrs/week study AND improve attendance by +0.5%.
+STU_0094,69.6,20.9,89.0,70.6,3.06,72.2,74.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0095,83.2,23.6,83.8,79.9,3.03,83.5,80.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0096,66.6,13.6,66.6,64.2,2.05,58.8,60.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +9.2 points to reach 70. Prescription: Add +11.6 hrs/week study AND improve attendance by +24.1%.
+STU_0097,74.7,24.3,87.0,74.8,3.34,79.0,79.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0098,79.5,19.9,81.0,77.5,3.5,76.3,78.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0099,72.8,28.1,89.4,78.1,2.72,86.1,79.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0100,67.4,19.5,81.1,70.3,2.67,69.7,70.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0101,69.4,11.5,67.9,63.2,2.62,69.5,62.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.1 points to reach 70. Prescription: Add +8.9 hrs/week study AND improve attendance by +18.6%.
+STU_0102,85.3,17.0,98.1,71.5,2.88,80.8,77.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0103,66.2,15.1,81.7,71.1,2.98,72.3,70.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0104,73.4,15.1,72.4,55.2,2.72,65.3,64.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.0 points to reach 70. Prescription: Add +7.6 hrs/week study AND improve attendance by +15.7%.
+STU_0105,72.5,15.6,81.0,78.9,3.03,75.5,74.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0106,79.1,25.1,96.1,78.7,2.85,74.6,81.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0107,93.3,31.1,100.0,100.0,4.0,97.4,98.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0108,74.6,18.9,79.9,82.3,3.37,81.1,78.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0109,80.9,21.5,93.6,90.9,3.06,84.2,84.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0110,72.3,20.0,80.7,70.2,2.96,67.8,72.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0111,60.4,8.1,71.3,32.5,1.8,48.0,47.6,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +22.4 points to reach 70. Prescription: Add +28.2 hrs/week study AND improve attendance by +39.6%.
+STU_0112,77.4,19.6,90.7,79.6,3.12,85.6,79.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0113,77.2,20.7,84.0,90.8,3.17,86.4,81.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0114,97.2,32.0,100.0,100.0,4.0,99.2,99.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0115,72.6,17.7,83.1,76.9,3.19,79.1,75.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0116,85.5,19.5,94.4,79.4,3.05,79.8,80.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0117,80.7,19.4,88.1,83.1,3.13,74.0,80.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0118,60.4,13.0,66.0,56.0,2.22,54.2,57.5,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +12.5 points to reach 70. Prescription: Add +15.8 hrs/week study AND improve attendance by +32.8%.
+STU_0119,90.0,28.0,96.9,99.2,3.51,99.3,93.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0120,90.0,29.7,100.0,95.4,3.29,92.0,92.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0121,75.9,27.6,92.4,98.3,3.41,88.6,89.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0122,72.2,16.0,72.8,82.8,2.5,70.3,71.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0123,88.1,25.7,97.9,100.0,3.6,100.0,93.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0124,67.4,16.5,70.8,57.6,2.58,69.2,63.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.8 points to reach 70. Prescription: Add +8.6 hrs/week study AND improve attendance by +17.8%.
+STU_0125,79.3,25.4,100.0,88.3,3.15,95.0,86.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0126,89.1,36.4,100.0,100.0,3.58,97.6,97.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0127,58.3,16.0,72.0,61.1,2.99,65.6,64.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.7 points to reach 70. Prescription: Add +7.2 hrs/week study AND improve attendance by +14.9%.
+STU_0128,72.6,24.9,85.7,71.9,3.09,71.7,76.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0129,80.6,21.4,86.8,77.7,2.72,83.0,77.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0130,67.5,16.2,80.9,72.1,2.95,66.9,71.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0131,66.3,11.3,61.6,51.5,2.18,56.2,55.6,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +14.4 points to reach 70. Prescription: Add +18.1 hrs/week study AND improve attendance by +33.7%.
+STU_0132,68.7,22.4,87.2,87.6,3.1,76.5,80.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0133,67.0,13.5,71.4,63.3,2.6,61.7,63.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.2 points to reach 70. Prescription: Add +7.8 hrs/week study AND improve attendance by +16.3%.
+STU_0134,75.5,30.0,95.5,89.1,3.15,84.2,86.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0135,64.9,17.2,79.6,64.7,2.39,64.1,65.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.1 points to reach 70. Prescription: Add +5.2 hrs/week study AND improve attendance by +10.7%.
+STU_0136,93.8,28.2,100.0,100.0,3.52,93.3,95.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0137,65.0,16.8,78.0,73.1,2.42,66.5,68.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.8 points to reach 70. Prescription: Add +2.3 hrs/week study AND improve attendance by +4.7%.
+STU_0138,72.5,18.0,83.0,69.0,2.65,74.1,70.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0139,92.2,21.1,97.7,85.3,3.35,82.5,86.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0140,62.2,12.9,68.0,59.2,2.27,60.3,59.4,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +10.6 points to reach 70. Prescription: Add +13.4 hrs/week study AND improve attendance by +27.8%.
+STU_0141,85.3,28.0,91.0,77.2,3.27,88.6,83.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0142,84.3,27.6,99.5,93.2,3.96,91.3,93.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0143,65.1,16.2,66.9,55.1,2.13,56.7,59.2,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +10.8 points to reach 70. Prescription: Add +13.6 hrs/week study AND improve attendance by +28.3%.
+STU_0144,88.5,25.3,95.9,88.8,3.14,86.6,87.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0145,65.8,21.5,81.7,84.4,3.24,82.4,77.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0146,81.0,26.5,100.0,92.5,3.47,90.8,89.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0147,69.1,11.0,77.3,65.2,2.46,62.5,64.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.7 points to reach 70. Prescription: Add +7.2 hrs/week study AND improve attendance by +14.9%.
+STU_0148,63.6,19.7,68.4,62.2,2.59,66.6,64.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.3 points to reach 70. Prescription: Add +6.7 hrs/week study AND improve attendance by +13.9%.
+STU_0149,85.4,28.4,81.9,91.4,3.36,82.7,87.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0150,77.3,23.4,85.8,83.5,2.82,82.2,79.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0151,81.0,22.4,95.4,84.7,3.33,86.0,84.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0152,80.5,22.0,89.8,80.6,3.38,80.8,81.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0153,78.2,21.4,73.3,56.8,2.5,64.0,67.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.9 points to reach 70. Prescription: Add +3.7 hrs/week study AND improve attendance by +7.6%.
+STU_0154,81.8,24.2,86.3,82.9,3.11,78.6,81.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0155,83.0,20.8,93.9,91.4,3.3,87.6,85.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0156,68.4,14.2,79.1,73.4,2.63,73.7,69.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.0 points to reach 70. Prescription: Add +1.3 hrs/week study AND improve attendance by +2.6%.
+STU_0157,93.7,26.9,100.0,100.0,4.0,94.4,96.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0158,80.1,27.1,89.4,95.3,3.8,91.7,90.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0159,68.5,14.2,85.9,62.6,2.27,54.7,65.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.5 points to reach 70. Prescription: Add +5.7 hrs/week study AND improve attendance by +11.8%.
+STU_0160,82.0,25.2,88.9,90.4,2.95,82.3,84.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0161,70.0,15.7,81.9,61.7,2.64,67.1,67.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +3.0 points to reach 70. Prescription: Add +3.8 hrs/week study AND improve attendance by +7.9%.
+STU_0162,98.3,21.5,95.8,87.2,3.53,85.3,88.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0163,94.8,23.0,100.0,97.9,3.46,89.0,92.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0164,67.8,15.1,82.8,74.2,2.99,69.5,71.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0165,94.8,24.2,100.0,91.6,3.1,90.7,89.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0166,79.7,21.4,88.3,81.9,3.36,80.9,81.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0167,74.0,23.6,96.2,90.5,3.22,77.0,84.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0168,90.9,39.3,100.0,100.0,4.0,93.6,100.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0169,64.3,22.9,76.4,68.7,3.39,71.0,73.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0170,68.4,17.3,77.6,55.0,2.47,65.7,63.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.3 points to reach 70. Prescription: Add +7.9 hrs/week study AND improve attendance by +16.5%.
+STU_0171,69.2,15.7,68.7,63.1,2.46,53.8,63.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.1 points to reach 70. Prescription: Add +7.7 hrs/week study AND improve attendance by +16.0%.
+STU_0172,79.9,21.3,82.9,60.2,2.85,67.9,71.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0173,79.2,22.5,82.7,76.1,2.87,75.0,76.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0174,80.1,21.8,90.8,83.0,3.14,86.9,81.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0175,85.7,25.0,91.3,81.9,3.13,82.4,83.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0176,73.0,25.6,85.9,100.0,2.89,88.0,84.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0177,79.5,29.9,89.0,85.6,3.0,85.4,84.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0178,97.2,27.2,100.0,100.0,3.48,87.4,95.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0179,66.5,23.2,85.4,81.0,2.76,79.5,76.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0180,100.0,31.5,100.0,100.0,4.0,100.0,99.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0181,86.3,21.9,94.5,93.6,2.97,87.9,86.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0182,66.9,24.5,84.3,70.3,2.82,88.6,73.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0183,71.1,18.1,67.9,69.3,2.45,59.1,66.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +3.1 points to reach 70. Prescription: Add +3.9 hrs/week study AND improve attendance by +8.1%.
+STU_0184,96.4,24.4,90.4,80.3,3.15,91.0,84.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0185,76.9,30.8,85.6,71.9,3.1,79.3,80.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0186,86.6,21.3,95.7,94.2,3.41,90.2,88.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0187,80.0,26.8,93.0,90.0,3.36,87.1,87.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0188,72.2,24.5,86.5,74.7,3.21,76.9,78.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0189,74.5,22.9,79.0,64.9,2.54,68.8,70.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0190,57.7,10.2,71.5,63.2,2.17,60.3,58.9,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +11.1 points to reach 70. Prescription: Add +14.0 hrs/week study AND improve attendance by +29.1%.
+STU_0191,74.0,17.9,82.2,65.6,2.53,64.0,69.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.7 points to reach 70. Prescription: Add +0.9 hrs/week study AND improve attendance by +1.8%.
+STU_0192,83.7,25.7,94.8,100.0,3.18,92.8,89.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0193,83.0,28.1,92.2,79.8,3.83,85.6,87.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0194,67.5,15.6,79.9,65.9,2.75,63.9,67.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.2 points to reach 70. Prescription: Add +2.8 hrs/week study AND improve attendance by +5.8%.
+STU_0195,86.0,25.7,88.1,81.7,2.74,80.1,81.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0196,78.8,19.6,85.2,87.0,2.84,84.0,79.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0197,67.5,15.1,79.9,62.9,2.72,64.9,66.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +3.4 points to reach 70. Prescription: Add +4.3 hrs/week study AND improve attendance by +8.9%.
+STU_0198,73.7,26.5,86.1,82.8,3.21,83.2,81.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0199,75.9,20.1,75.2,80.0,3.16,73.5,76.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0200,68.8,14.7,76.0,56.9,2.42,65.8,62.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.2 points to reach 70. Prescription: Add +9.1 hrs/week study AND improve attendance by +18.9%.
+STU_0201,86.1,28.7,88.2,91.7,3.13,90.1,87.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0202,78.1,21.1,91.4,83.1,3.33,88.9,81.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0203,94.0,24.1,100.0,92.5,3.51,90.8,91.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0204,96.7,22.8,100.0,86.9,2.92,89.6,87.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0205,66.7,20.3,85.9,47.2,2.32,61.3,63.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.9 points to reach 70. Prescription: Add +8.7 hrs/week study AND improve attendance by +18.1%.
+STU_0206,79.9,19.3,73.5,66.3,2.37,73.5,68.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.1 points to reach 70. Prescription: Add +1.4 hrs/week study AND improve attendance by +2.9%.
+STU_0207,78.5,26.5,94.0,100.0,3.28,87.1,89.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0208,75.7,22.0,89.7,90.8,3.98,89.4,86.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0209,72.5,20.0,94.2,85.1,3.32,81.2,81.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0210,100.0,21.3,100.0,100.0,4.0,100.0,95.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0211,87.6,28.7,88.7,89.9,3.49,89.2,89.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0212,89.0,27.9,85.9,99.5,3.63,95.6,91.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0213,89.2,27.7,95.2,86.8,3.53,89.1,89.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0214,77.8,24.5,96.9,95.5,3.44,89.6,88.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0215,89.5,16.9,85.8,78.1,3.37,85.5,80.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0216,86.4,23.4,100.0,93.9,3.06,92.0,88.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0217,70.9,14.2,75.0,69.7,2.77,71.4,68.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.8 points to reach 70. Prescription: Add +2.3 hrs/week study AND improve attendance by +4.7%.
+STU_0218,80.0,16.6,81.6,74.8,2.66,71.5,73.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0219,76.0,21.2,80.0,77.8,2.92,72.7,76.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0220,80.2,17.6,85.4,82.4,2.81,80.8,77.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0221,96.4,29.6,100.0,100.0,3.94,100.0,98.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0222,62.2,10.4,54.7,48.8,2.09,57.1,51.9,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +18.1 points to reach 70. Prescription: Add +22.8 hrs/week study AND improve attendance by +37.8%.
+STU_0223,96.2,24.1,90.7,89.7,3.55,86.8,89.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0224,69.9,9.4,61.4,64.2,2.5,59.5,60.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +9.3 points to reach 70. Prescription: Add +11.7 hrs/week study AND improve attendance by +24.4%.
+STU_0225,82.8,19.4,86.0,65.6,2.48,66.3,72.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0226,85.8,26.5,100.0,86.2,3.5,87.7,88.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0227,72.7,26.0,85.1,83.5,2.85,83.7,79.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0228,66.5,15.3,71.3,64.3,2.2,61.4,63.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.0 points to reach 70. Prescription: Add +8.8 hrs/week study AND improve attendance by +18.4%.
+STU_0229,71.2,18.6,77.2,70.8,2.62,72.6,70.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0230,91.4,22.0,100.0,89.5,3.01,87.3,86.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0231,60.5,15.0,70.4,66.7,3.28,68.2,67.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +3.0 points to reach 70. Prescription: Add +3.8 hrs/week study AND improve attendance by +7.9%.
+STU_0232,89.3,18.7,91.0,89.9,3.21,80.1,84.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0233,77.5,18.8,91.0,69.4,2.68,74.5,73.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0234,68.9,16.3,79.7,64.5,2.57,56.4,67.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.9 points to reach 70. Prescription: Add +3.7 hrs/week study AND improve attendance by +7.6%.
+STU_0235,93.4,35.9,100.0,100.0,4.0,99.7,100.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0236,74.4,21.5,97.1,77.4,3.81,77.2,82.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0237,62.7,20.1,47.6,53.7,1.8,58.9,54.8,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +15.2 points to reach 70. Prescription: Add +19.2 hrs/week study AND improve attendance by +37.3%.
+STU_0238,80.3,23.4,91.5,92.7,2.61,86.2,83.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0239,63.6,18.4,73.0,70.4,3.17,71.8,70.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0240,78.8,24.7,86.0,92.7,3.48,91.6,86.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0241,68.1,16.0,78.0,60.1,2.43,61.4,64.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.4 points to reach 70. Prescription: Add +6.8 hrs/week study AND improve attendance by +14.2%.
+STU_0242,86.9,18.3,92.6,73.2,3.08,85.2,78.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0243,81.5,19.9,91.1,82.8,2.57,82.3,78.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0244,77.6,22.7,99.9,88.7,3.39,85.6,86.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0245,64.5,21.2,78.5,72.8,2.54,74.9,70.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0246,73.0,20.6,87.8,78.6,3.08,73.8,77.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0247,57.1,24.7,85.5,68.8,2.53,68.3,70.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0248,71.1,15.6,81.2,70.6,2.73,68.0,70.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0249,94.3,26.8,100.0,100.0,3.56,93.0,95.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0250,86.2,22.5,83.4,91.8,3.25,80.6,84.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0251,76.5,12.1,70.4,69.8,2.21,69.4,65.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.8 points to reach 70. Prescription: Add +6.0 hrs/week study AND improve attendance by +12.6%.
+STU_0252,93.9,25.6,94.0,86.5,3.31,87.1,88.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0253,97.6,27.8,100.0,100.0,3.71,97.8,96.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0254,81.7,21.9,96.7,84.7,3.63,83.8,85.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0255,78.2,13.9,69.6,56.6,2.53,56.6,63.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.5 points to reach 70. Prescription: Add +8.2 hrs/week study AND improve attendance by +17.0%.
+STU_0256,73.5,24.9,82.5,78.2,2.72,78.0,76.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0257,90.8,28.0,100.0,100.0,3.58,87.9,94.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0258,70.8,18.7,85.3,69.4,2.32,70.1,69.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.2 points to reach 70. Prescription: Add +0.3 hrs/week study AND improve attendance by +0.5%.
+STU_0259,83.6,22.8,88.3,83.7,3.12,77.3,82.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0260,84.9,24.7,96.2,91.3,3.34,95.6,88.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0261,65.3,12.7,69.9,59.6,3.24,67.8,64.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +5.4 points to reach 70. Prescription: Add +6.8 hrs/week study AND improve attendance by +14.2%.
+STU_0262,74.1,18.2,77.9,90.0,2.7,77.1,76.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0263,45.4,8.9,42.1,25.5,1.91,42.5,38.0,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +32.0 points to reach 70. Prescription: Add +40.3 hrs/week study AND improve attendance by +54.6%.
+STU_0264,64.5,14.3,72.2,65.3,2.79,62.2,65.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.7 points to reach 70. Prescription: Add +5.9 hrs/week study AND improve attendance by +12.3%.
+STU_0265,71.2,23.7,79.8,89.8,2.96,81.9,79.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0266,66.2,14.5,66.7,61.6,2.88,64.5,63.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.1 points to reach 70. Prescription: Add +7.7 hrs/week study AND improve attendance by +16.0%.
+STU_0267,92.8,29.1,98.8,100.0,3.83,97.5,96.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0268,72.7,12.3,68.8,56.2,2.45,65.7,61.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +8.8 points to reach 70. Prescription: Add +11.1 hrs/week study AND improve attendance by +23.1%.
+STU_0269,57.7,20.6,70.3,72.9,2.79,71.3,68.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.6 points to reach 70. Prescription: Add +2.0 hrs/week study AND improve attendance by +4.2%.
+STU_0270,85.9,24.5,92.1,90.8,3.36,88.4,87.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0271,99.9,25.6,100.0,85.6,3.92,86.6,92.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0272,51.2,10.3,58.6,66.6,2.2,52.9,56.4,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +13.6 points to reach 70. Prescription: Add +17.1 hrs/week study AND improve attendance by +35.7%.
+STU_0273,87.6,22.7,98.4,85.6,3.19,85.6,85.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0274,75.9,22.1,81.7,78.4,2.95,77.4,77.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0275,59.7,16.7,73.8,63.1,2.36,59.3,63.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.9 points to reach 70. Prescription: Add +8.7 hrs/week study AND improve attendance by +18.1%.
+STU_0276,78.0,34.9,97.5,94.8,3.19,100.0,91.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0277,73.3,21.6,77.8,72.5,3.4,81.3,75.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0278,82.5,17.0,80.3,73.2,2.62,75.1,72.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0279,84.3,21.5,86.6,92.7,3.02,84.0,83.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0280,81.8,19.4,85.4,65.9,2.84,72.8,73.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0281,83.5,20.4,88.8,81.7,3.26,77.9,81.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0282,77.8,21.8,89.2,83.8,2.74,79.9,79.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0283,90.7,28.3,100.0,100.0,3.56,96.0,94.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0284,68.6,14.1,66.7,61.6,2.5,57.8,62.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.5 points to reach 70. Prescription: Add +9.5 hrs/week study AND improve attendance by +19.7%.
+STU_0285,92.0,30.9,100.0,100.0,4.0,99.3,98.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0286,62.8,13.5,62.0,55.6,2.0,55.7,56.3,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +13.7 points to reach 70. Prescription: Add +17.3 hrs/week study AND improve attendance by +35.9%.
+STU_0287,75.0,19.6,93.1,87.8,2.46,72.1,78.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0288,81.6,20.4,92.4,85.1,3.42,80.4,83.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0289,85.1,20.2,86.3,86.8,2.97,79.8,81.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0290,74.4,16.7,70.7,62.3,2.42,72.2,65.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.7 points to reach 70. Prescription: Add +5.9 hrs/week study AND improve attendance by +12.3%.
+STU_0291,73.8,19.5,73.8,70.5,2.75,72.8,70.8,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0292,80.0,19.6,72.7,75.7,2.73,68.1,73.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0293,65.6,17.6,78.7,79.7,2.58,73.5,71.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0294,90.2,21.0,99.4,91.8,2.83,80.6,86.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0295,85.1,19.4,82.8,81.2,3.38,84.3,80.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0296,69.2,18.9,81.2,70.2,3.01,70.6,72.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0297,89.0,24.2,94.8,84.2,3.57,86.9,87.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0298,73.6,22.3,89.1,87.4,2.85,85.5,80.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0299,91.7,23.5,100.0,95.6,3.32,86.1,90.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0300,83.2,21.9,97.9,84.7,3.28,79.8,84.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0301,66.6,15.4,73.5,64.1,2.78,63.8,65.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.1 points to reach 70. Prescription: Add +5.2 hrs/week study AND improve attendance by +10.7%.
+STU_0302,78.7,18.0,75.2,73.0,2.92,76.5,72.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0303,81.2,24.1,83.6,87.2,3.15,77.0,82.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0304,75.7,26.8,88.5,89.0,3.3,74.6,84.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0305,68.5,21.3,83.0,90.1,3.1,76.5,79.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0306,82.8,18.0,82.8,78.0,3.42,80.6,78.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0307,83.1,26.1,99.9,94.9,3.75,96.5,91.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0308,82.6,19.2,80.3,67.6,2.93,71.7,73.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0309,71.0,25.7,89.5,92.6,3.27,83.4,84.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0310,86.2,17.8,81.4,74.5,3.26,81.3,77.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0311,77.1,15.2,84.0,70.3,3.0,65.9,72.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0312,88.4,24.4,100.0,100.0,3.28,90.4,91.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0313,83.0,21.3,90.1,100.0,3.72,91.8,89.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0314,88.5,24.4,100.0,87.1,3.54,90.8,88.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0315,90.8,28.8,100.0,87.4,3.48,89.3,91.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0316,84.8,25.0,87.0,87.5,2.89,83.5,83.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0317,85.5,23.3,97.9,84.6,3.38,77.1,86.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0318,75.8,17.6,83.1,78.9,2.98,73.3,75.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0319,79.1,19.8,94.2,71.0,3.2,79.9,77.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0320,76.4,16.8,85.5,81.3,3.02,73.3,76.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0321,80.8,17.6,84.1,71.8,3.47,77.0,76.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0322,73.7,21.6,93.4,91.3,3.54,86.9,85.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0323,61.7,20.1,68.5,69.3,2.68,65.9,67.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.9 points to reach 70. Prescription: Add +3.7 hrs/week study AND improve attendance by +7.6%.
+STU_0324,100.0,33.1,100.0,100.0,4.0,100.0,100.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0325,69.0,14.0,73.1,61.8,2.29,59.5,62.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.1 points to reach 70. Prescription: Add +8.9 hrs/week study AND improve attendance by +18.6%.
+STU_0326,64.8,24.2,69.3,70.4,2.55,68.6,69.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.8 points to reach 70. Prescription: Add +1.0 hrs/week study AND improve attendance by +2.1%.
+STU_0327,89.7,24.6,85.9,95.6,3.97,95.8,91.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0328,88.0,29.4,86.5,96.2,3.3,90.4,90.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0329,81.0,29.9,90.3,100.0,3.07,87.7,89.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0330,79.6,25.0,93.3,79.4,3.12,83.2,82.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0331,79.1,18.6,86.5,87.9,2.72,81.7,78.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0332,63.2,14.9,68.5,66.5,2.4,55.7,63.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.8 points to reach 70. Prescription: Add +8.6 hrs/week study AND improve attendance by +17.8%.
+STU_0333,81.2,21.3,93.3,75.1,2.94,83.4,78.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0334,61.0,14.1,71.4,60.2,2.34,59.9,60.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +9.1 points to reach 70. Prescription: Add +11.5 hrs/week study AND improve attendance by +23.9%.
+STU_0335,93.9,22.9,100.0,90.9,3.44,91.7,90.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0336,79.4,17.2,86.4,81.5,3.16,82.8,78.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0337,71.3,18.0,72.4,67.4,2.4,62.0,67.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +3.0 points to reach 70. Prescription: Add +3.8 hrs/week study AND improve attendance by +7.9%.
+STU_0338,80.7,23.2,91.4,85.7,3.24,81.2,83.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0339,92.1,24.9,86.4,77.4,3.31,82.1,83.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0340,78.4,21.2,84.2,72.7,3.0,73.3,76.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0341,58.7,14.4,78.8,59.1,2.47,69.0,62.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.8 points to reach 70. Prescription: Add +9.8 hrs/week study AND improve attendance by +20.5%.
+STU_0342,72.8,20.7,84.2,84.4,3.32,76.7,79.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0343,76.7,20.9,95.2,87.6,2.84,79.9,81.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0344,73.1,19.3,78.1,70.1,2.99,73.1,72.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0345,76.4,16.3,81.7,56.1,2.83,63.3,67.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.5 points to reach 70. Prescription: Add +3.2 hrs/week study AND improve attendance by +6.6%.
+STU_0346,76.0,24.8,89.2,85.2,3.24,81.6,82.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0347,64.6,19.3,67.1,63.9,2.05,64.0,62.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +7.4 points to reach 70. Prescription: Add +9.3 hrs/week study AND improve attendance by +19.4%.
+STU_0348,59.4,15.0,71.5,62.3,2.14,59.8,60.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +9.3 points to reach 70. Prescription: Add +11.7 hrs/week study AND improve attendance by +24.4%.
+STU_0349,67.1,15.8,80.1,75.9,2.83,71.0,71.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0350,67.4,17.2,73.0,68.8,2.67,65.8,67.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.4 points to reach 70. Prescription: Add +3.0 hrs/week study AND improve attendance by +6.3%.
+STU_0351,75.6,19.5,95.3,86.6,3.26,77.0,82.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0352,84.6,24.1,94.6,100.0,3.32,91.3,90.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0353,80.7,24.0,100.0,80.4,3.6,92.4,85.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0354,82.7,18.8,90.3,78.4,2.62,77.4,77.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0355,72.1,23.3,79.2,77.2,3.13,77.6,76.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0356,83.8,13.8,73.5,63.7,2.71,70.3,68.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +1.8 points to reach 70. Prescription: Add +2.3 hrs/week study AND improve attendance by +4.7%.
+STU_0357,80.8,19.8,80.4,80.8,2.82,72.1,76.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0358,76.2,19.8,81.2,72.5,3.02,80.8,74.6,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0359,76.1,23.6,87.4,80.4,3.21,81.4,80.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0360,73.9,18.7,79.9,68.7,2.49,76.2,70.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0361,79.7,23.5,98.2,80.3,2.98,79.9,82.1,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0362,94.1,25.2,100.0,93.2,3.2,97.5,90.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0363,92.3,21.1,83.8,82.3,3.04,84.2,81.7,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0364,81.4,20.7,89.6,77.2,2.79,80.2,77.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0365,91.8,28.5,86.9,95.1,3.33,90.9,90.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0366,69.8,18.4,76.0,76.2,2.75,70.9,71.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0367,80.0,22.2,93.3,72.3,3.27,84.3,79.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0368,88.8,33.5,95.5,81.1,2.93,88.2,87.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0369,75.2,23.4,80.2,88.9,2.96,73.1,80.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0370,81.1,17.7,74.7,62.8,2.84,65.4,69.7,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.3 points to reach 70. Prescription: Add +0.4 hrs/week study AND improve attendance by +0.8%.
+STU_0371,82.5,20.1,86.5,76.5,3.09,77.7,78.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0372,79.6,20.1,92.8,87.8,3.3,84.7,83.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0373,96.3,27.0,100.0,100.0,3.77,96.0,96.4,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0374,93.4,23.1,85.9,90.4,3.05,92.8,85.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0375,100.0,38.1,100.0,100.0,4.0,95.2,100.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0376,60.9,17.8,74.6,77.3,2.81,70.8,70.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0377,82.4,29.3,98.7,100.0,3.14,85.3,91.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0378,78.3,19.7,87.8,86.9,3.02,83.4,80.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0379,99.5,29.4,100.0,100.0,3.98,98.3,98.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0380,73.6,18.5,75.6,63.8,2.6,69.6,68.0,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +2.0 points to reach 70. Prescription: Add +2.5 hrs/week study AND improve attendance by +5.2%.
+STU_0381,70.7,14.0,74.9,61.2,2.71,62.1,65.3,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +4.7 points to reach 70. Prescription: Add +5.9 hrs/week study AND improve attendance by +12.3%.
+STU_0382,64.0,16.2,75.2,73.2,3.09,74.9,70.2,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0383,59.0,17.0,58.2,54.7,2.31,61.2,57.4,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +12.6 points to reach 70. Prescription: Add +15.9 hrs/week study AND improve attendance by +33.0%.
+STU_0384,76.4,16.6,87.7,79.6,2.44,76.6,74.1,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0385,73.8,13.6,79.5,70.9,2.81,69.4,69.9,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +0.1 points to reach 70. Prescription: Add +0.1 hrs/week study AND improve attendance by +0.3%.
+STU_0386,86.0,17.7,87.1,70.7,3.4,79.8,77.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0387,86.4,18.9,94.2,88.9,3.25,82.0,84.5,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0388,99.5,34.6,100.0,100.0,4.0,100.0,100.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0389,87.1,23.7,100.0,89.7,3.93,97.1,90.9,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0390,62.3,30.2,78.8,78.2,3.0,81.6,77.2,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0391,71.6,22.2,74.3,81.2,2.66,71.6,74.4,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0392,84.2,31.8,94.3,100.0,3.48,95.1,93.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0393,66.4,17.5,61.6,65.7,2.44,58.5,63.5,MODERATE_RISK,🟡 Moderate Risk (Watchlist),Needs +6.5 points to reach 70. Prescription: Add +8.2 hrs/week study AND improve attendance by +17.0%.
+STU_0394,88.7,31.5,100.0,100.0,3.83,99.2,97.0,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0395,83.3,24.2,93.5,98.3,3.44,91.3,89.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0396,79.6,18.0,81.5,77.8,3.18,69.8,76.8,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0397,60.6,14.2,72.9,53.9,2.02,54.0,57.8,HIGH_RISK,🔴 High Risk (Critical Action Needed),Needs +12.2 points to reach 70. Prescription: Add +15.4 hrs/week study AND improve attendance by +32.0%.
+STU_0398,95.6,30.6,100.0,100.0,3.99,97.5,98.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0399,77.0,17.2,87.5,77.7,3.07,75.7,76.6,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.
+STU_0400,90.6,26.0,100.0,99.5,3.21,88.0,92.3,LOW_RISK,🟢 Low Risk (On Track),Student is performing on pace. Maintain current study and attendance rhythm.

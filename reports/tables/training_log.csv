@@ -1,0 +1,4 @@
+model_name,type,pipeline,train_samples,status,artifact_path
+Multiple Linear Regression,Parametric Baseline,StandardScaler -> LinearRegression,318,Trained & Serialized,models\linear_regression.joblib
+Random Forest Regressor,Non-linear Ensemble,StandardScaler -> RandomForestRegressor(n_estimators=300),318,Trained & Serialized,models\random_forest.joblib
+Ridge Regression,L2 Regularized Linear,StandardScaler -> Ridge(alpha=1.0),318,Trained & Serialized,models\ridge.joblib

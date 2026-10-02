@@ -1,0 +1,13 @@
+rule_id,action,rows_affected,details
+V1,Checked required canonical columns,0,All columns present
+V7,Standardized student_id format,402,Trimmed whitespace
+V2,Deduplicated on student_id,2,Removed 2 duplicate records
+V4,Coerced numeric columns to float,400,Converted bad characters to NaN
+V3,Checked numeric range boundaries,1,Set 1 invalid entries to NaN
+V5,Dropped records missing target (final_score),2,Removed 2 rows
+V6,Dropped rows missing > 50% of features,0,Removed 0 rows
+A4,Imputed attendance_pct using mean,1,Filled with value: 77.85
+A4,Imputed study_hours_week using mean,8,Filled with value: 21.3
+A4,Imputed assignment_avg using median,6,Filled with value: 85.9
+A4,Imputed previous_gpa using mean,5,Filled with value: 3.01
+DONE,Saved canonical cleaned dataset,398,Rows: 398 (Original: 402)

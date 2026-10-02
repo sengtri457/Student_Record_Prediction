@@ -1,0 +1,4 @@
+model,train_mae,test_mae,train_rmse,test_rmse,train_r2,test_r2
+linear_regression,3.09,2.627,3.913,3.393,0.8881,0.9288
+random_forest,1.264,3.148,1.617,4.02,0.9809,0.9
+ridge,3.09,2.627,3.913,3.394,0.8881,0.9288

@@ -1,0 +1,5 @@
+scenario,student_id,attendance_pct,study_hours_week,assignment_avg,midterm_score,previous_gpa,context,predicted_final_score
+"High Attendance, Low Midterm Benchmark",SIM_HIGH_ATT_LOW_MID,98.0,14.0,78.0,45.0,2.7,Consistent lecture attendance but struggled on timed midterm exam,66.1
+"Low Attendance, High Prior GPA (Fast Learner)",SIM_LOW_ATT_HIGH_GPA,55.0,26.0,92.0,88.0,3.85,Low class presence compensated by heavy self-study and high prior foundation,83.3
+Average Student on All Dimensions,SIM_MEDIAN_STUDENT,78.0,21.0,85.0,79.0,3.0,Benchmark student matching cohort median characteristics exactly,78.0
+"High Effort, Low Assignments (Struggling with Homework)",SIM_HIGH_EFFORT_LOW_HW,95.0,34.0,62.0,72.0,2.9,High study investment but lower formative assignment return,79.5

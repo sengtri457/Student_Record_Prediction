@@ -1,0 +1,16 @@
+model,fold,cv_r2,cv_rmse
+linear_regression,1,0.8684,3.922
+linear_regression,2,0.8663,4.391
+linear_regression,3,0.913,3.632
+linear_regression,4,0.8885,3.763
+linear_regression,5,0.8714,4.146
+random_forest,1,0.8268,4.5
+random_forest,2,0.833,4.907
+random_forest,3,0.8977,3.939
+random_forest,4,0.8656,4.131
+random_forest,5,0.8481,4.507
+ridge,1,0.8684,3.922
+ridge,2,0.8664,4.389
+ridge,3,0.9132,3.629
+ridge,4,0.8884,3.764
+ridge,5,0.8715,4.145
