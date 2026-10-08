@@ -1,0 +1,2 @@
+model_stage,features_used,train_mae,test_mae,train_rmse,test_rmse,train_r2,test_r2,cv_r2_mean,cv_r2_std,cv_rmse_mean
+Pre-Midterm (Weeks 1-6),"attendance, study_hours, assignment_avg, previous_gpa",3.481,3.001,4.408,3.688,0.858,0.9159,0.8495,0.0241,4.468

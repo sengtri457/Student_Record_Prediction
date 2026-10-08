@@ -144,7 +144,7 @@ def evaluate_models(
     joblib.dump(best_pipeline, best_model_path)
 
     # Document selection decision
-    decision_text = f"""# Model Selection Decision
+    decision_text = fr"""# Model Selection Decision
 
 - **Selected Model:** **{selected_model_name.upper()}**
 - **Artifact Path:** `{best_model_path}`

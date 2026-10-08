@@ -100,7 +100,8 @@ def generate_all_visualizations(df: pd.DataFrame, figures_dir: str = "reports/fi
     )
     fig, ax = plt.subplots(figsize=(8, 5), dpi=150)
     sns.boxplot(data=df_plot, x="attendance_tier", y="final_score",
-                palette=["#f87171", "#fbbf24", "#34d399"], ax=ax, width=0.5)
+                hue="attendance_tier", palette=["#f87171", "#fbbf24", "#34d399"],
+                legend=False, ax=ax, width=0.5)
     sns.stripplot(data=df_plot, x="attendance_tier", y="final_score",
                   color="black", alpha=0.3, jitter=0.2, size=4, ax=ax)
     ax.set_title("Final Score Distribution by Attendance Tier", fontsize=14, fontweight="bold", pad=12)
@@ -200,7 +201,7 @@ def generate_eda_findings(df: pd.DataFrame, output_path: str = "reports/tables/e
     score_kurt = round(float(df["final_score"].kurtosis()), 3)
     normal_verdict = "approximately normal and symmetric" if abs(score_skew) < 0.5 else "moderately skewed"
 
-    content = f"""# Exploratory Data Analysis Findings
+    content = fr"""# Exploratory Data Analysis Findings
 
 Empirical findings answering the 7 required research questions defined in `docs/03_PART_A_DATA_ANALYSIS.md`.
 
