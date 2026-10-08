@@ -1,7 +1,7 @@
 # Phase 2 Specification: At-Risk Early Warning Engine, Model Drivers Visualizer & Interactive Web Application
 
-> **Project:** Student Score Prediction (Topic 01)  
-> **Status:** Specification Approved & Implementing  
+> **Project:** Student Score Prediction (Topic 01)\
+> **Status:** Specification Approved & Implementing\
 > **Focus:** Translating predictive regression outputs into actionable pedagogical interventions, comparative feature diagnostics, and a production-grade web interface.
 
 ---
@@ -32,21 +32,24 @@ While Phase 1 established a statistically sound, leak-free regression pipeline (
 ## 2. Technical Specifications
 
 ### 2.1 Risk Tier Triage Definition
-| Tier | Score Range | Status Code | Advisory Action Required |
-|---|---|---|---|
-| **🟢 Low Risk (On Track)** | $\hat{y} \ge 75.0$ | `LOW_RISK` | No intervention needed; praise consistent performance. |
-| **🟡 Moderate Risk (Borderline)** | $60.0 \le \hat{y} < 75.0$ | `MODERATE_RISK` | Targeted homework support and formative feedback recommended. |
-| **🔴 High Risk (Critical)** | $\hat{y} < 60.0$ | `HIGH_RISK` | Immediate intervention, mandatory counseling, remedial sessions. |
+
+| Tier                              | Score Range               | Status Code     | Advisory Action Required                                         |
+| --------------------------------- | ------------------------- | --------------- | ---------------------------------------------------------------- |
+| **🟢 Low Risk (On Track)**        | $\hat{y} \ge 75.0$        | `LOW_RISK`      | No intervention needed; praise consistent performance.           |
+| **🟡 Moderate Risk (Borderline)** | $60.0 \le \hat{y} < 75.0$ | `MODERATE_RISK` | Targeted homework support and formative feedback recommended.    |
+| **🔴 High Risk (Critical)**       | $\hat{y} < 60.0$          | `HIGH_RISK`     | Immediate intervention, mandatory counseling, remedial sessions. |
 
 ### 2.2 Mathematical Prescription Engine
+
 Let target safe passing score be $Y^* = 70.0$. For any student with $\hat{y} < Y^*$, the point gap is:
-$$\Delta y = Y^* - \hat{y}$$
+$\Delta y = Y^* - \hat{y}$
 
 Using the unstandardized linear regression coefficients ($B_{\text{study}} \approx 0.397$ pts/hr, $B_{\text{attendance}} \approx 0.191$ pts/%):
+
 1. **Study Hours Intervention:**
-   $$\Delta h = \frac{\Delta y}{B_{\text{study}}} \approx \frac{\Delta y}{0.397}$$
+   $\Delta h = \frac{\Delta y}{B_{\text{study}}} \approx \frac{\Delta y}{0.397}$
 2. **Attendance Boost Intervention:**
-   $$\Delta a = \min\left(100.0 - a_{\text{current}}, \frac{\Delta y}{B_{\text{attendance}}}\right)$$
+   $\Delta a = \min\left(100.0 - a_{\text{current}}, \frac{\Delta y}{B_{\text{attendance}}}\right)$
 3. **Balanced Dual Prescription:**
    A feasible combination distributing effort across both self-study and class attendance without exceeding physical constraints ($h \le 50$, $a \le 100$).
 

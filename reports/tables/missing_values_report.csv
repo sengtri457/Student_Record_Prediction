@@ -1,0 +1,8 @@
+column,missing_count,missing_pct,skewness,imputation_strategy
+student_id,0,0.0,,None (ID column)
+attendance_pct,1,0.25,-0.044,Mean (skew between -0.5 and 0.5)
+study_hours_week,8,2.01,0.237,Mean (skew between -0.5 and 0.5)
+assignment_avg,6,1.51,-0.538,Median (skewed distribution)
+midterm_score,0,0.0,-0.373,Mean (skew between -0.5 and 0.5)
+previous_gpa,5,1.26,-0.016,Mean (skew between -0.5 and 0.5)
+final_score,0,0.0,-0.246,None (rows dropped per V5)

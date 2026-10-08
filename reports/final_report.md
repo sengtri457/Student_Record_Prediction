@@ -1,16 +1,16 @@
 # Comprehensive Technical Report: Student Score Prediction
 
-> **Course / Project Topic:** Topic 01 — Continuous Academic Score Prediction  
-> **Target Metric:** `final_score` (Continuous Float, 0 to 100)  
-> **Winning Model Architecture:** Multiple Linear Regression Pipeline (`StandardScaler` $\to$ `LinearRegression`)  
-> **Date of Evaluation:** 2026-10-02  
-> **Reproducibility Seed:** `42`  
+> **Course / Project Topic:** Topic 01 — Continuous Academic Score Prediction\
+> **Target Metric:** `final_score` (Continuous Float, 0 to 100)\
+> **Winning Model Architecture:** Multiple Linear Regression Pipeline (`StandardScaler` $\to$ `LinearRegression`)\
+> **Date of Evaluation:** 2026-10-02\
+> **Reproducibility Seed:** `42`
 
 ---
 
 ## 1. Introduction
 
-Academic success and graduation rates are critical barometers of institutional health. However, educators frequently face an information latency challenge: final examinations often deliver the earliest definitive measurement of course failure, occurring too late for pedagogical remediation. 
+Academic success and graduation rates are critical barometers of institutional health. However, educators frequently face an information latency challenge: final examinations often deliver the earliest definitive measurement of course failure, occurring too late for pedagogical remediation.
 
 The primary objective of this project is to construct a rigorous, leak-free supervised machine learning regression pipeline capable of predicting a student's continuous final score ($0$ to $100$) using behavioral, formative, and historical indicators known prior to the final exam. Rather than classifying students coarsely into arbitrary pass/fail buckets, this regression framework estimates expected continuous scores. This granular forecast empowers academic advisors to identify declining performance trajectories weeks before finals and enact targeted student interventions.
 
@@ -31,9 +31,10 @@ The dataset represents an academic cohort of students across semester-long cours
 
 ---
 
-## 3. Data Cleaning & Validation Audit
+## 3. Data Cleaning & V**alidation Audit**
 
 The data was audited against validation rules V1 through V7. From an initial intake of 402 raw records:
+
 1. **Rule V1 (Schema Check):** Confirmed all 7 canonical columns were present.
 2. **Rule V7 (Standardization):** Standardized student identifier strings.
 3. **Rule V2 (Deduplication):** Identified and dropped 2 exact duplicate rows (`STU_0013` and `STU_0046`).
@@ -50,14 +51,14 @@ The data was audited against validation rules V1 through V7. From an initial int
 
 Prior to feature imputation, missingness was logged to `reports/tables/missing_values.csv`. Because data loss is minimizable across feature columns ($< 2.5\%$ missingness), the imputation protocol selected central tendencies based on distribution symmetry:
 
-| Column | Missing Count | Missing % | Feature Skewness | Imputation Strategy Applied |
-|---|---|---|---|---|
-| `attendance_pct` | 1 | 0.25% | -0.044 | Mean ($77.85$) |
-| `study_hours_week` | 8 | 2.01% | 0.239 | Mean ($21.30$) |
-| `assignment_avg` | 6 | 1.51% | -0.546 | Median ($85.90$) |
-| `midterm_score` | 0 | 0.00% | -0.373 | None needed |
-| `previous_gpa` | 5 | 1.26% | -0.016 | Mean ($3.01$) |
-| `final_score` | 0 | 0.00% | -0.246 | Complete (unimputed) |
+| Column             | Missing Count | Missing % | Feature Skewness | Imputation Strategy Applied |
+| ------------------ | ------------- | --------- | ---------------- | --------------------------- |
+| `attendance_pct`   | 1             | 0.25%     | -0.044           | Mean ($77.85$)              |
+| `study_hours_week` | 8             | 2.01%     | 0.239            | Mean ($21.30$)              |
+| `assignment_avg`   | 6             | 1.51%     | -0.546           | Median ($85.90$)            |
+| `midterm_score`    | 0             | 0.00%     | -0.373           | None needed                 |
+| `previous_gpa`     | 5             | 1.26%     | -0.016           | Mean ($3.01$)               |
+| `final_score`      | 0             | 0.00%     | -0.246           | Complete (unimputed)        |
 
 Following imputation, zero missing values remain in features or target.
 
@@ -67,16 +68,17 @@ Following imputation, zero missing values remain in features or target.
 
 Summary statistics were compiled across all 398 clean records (`reports/tables/descriptive_stats.csv`):
 
-| Feature | Count | Mean | Median | Std Dev | Min | Q25 | Q75 | Max | Skewness | Kurtosis |
-|---|---|---|---|---|---|---|---|---|---|---|
-| `attendance_pct` | 398 | 77.85 | 78.25 | 10.40 | 45.40 | 70.17 | 85.10 | 100.00 | -0.044 | -0.333 |
-| `study_hours_week` | 398 | 21.30 | 21.20 | 5.49 | 5.80 | 17.60 | 24.77 | 39.30 | 0.239 | 0.274 |
-| `assignment_avg` | 398 | 85.06 | 85.90 | 11.07 | 42.10 | 77.45 | 94.20 | 100.00 | -0.546 | 0.066 |
-| `midterm_score` | 398 | 79.21 | 79.85 | 13.71 | 25.50 | 69.40 | 89.88 | 100.00 | -0.373 | -0.105 |
-| `previous_gpa` | 398 | 3.01 | 3.02 | 0.48 | 1.80 | 2.68 | 3.33 | 4.00 | -0.016 | -0.337 |
-| `final_score` | 398 | 78.11 | 79.40 | 11.96 | 42.50 | 69.53 | 87.05 | 100.00 | -0.246 | -0.490 |
+| Feature            | Count | Mean  | Median | Std Dev | Min   | Q25   | Q75   | Max    | Skewness | Kurtosis |
+| ------------------ | ----- | ----- | ------ | ------- | ----- | ----- | ----- | ------ | -------- | -------- |
+| `attendance_pct`   | 398   | 77.85 | 78.25  | 10.40   | 45.40 | 70.17 | 85.10 | 100.00 | -0.044   | -0.333   |
+| `study_hours_week` | 398   | 21.30 | 21.20  | 5.49    | 5.80  | 17.60 | 24.77 | 39.30  | 0.239    | 0.274    |
+| `assignment_avg`   | 398   | 85.06 | 85.90  | 11.07   | 42.10 | 77.45 | 94.20 | 100.00 | -0.546   | 0.066    |
+| `midterm_score`    | 398   | 79.21 | 79.85  | 13.71   | 25.50 | 69.40 | 89.88 | 100.00 | -0.373   | -0.105   |
+| `previous_gpa`     | 398   | 3.01  | 3.02   | 0.48    | 1.80  | 2.68  | 3.33  | 4.00   | -0.016   | -0.337   |
+| `final_score`      | 398   | 78.11 | 79.40  | 11.96   | 42.50 | 69.53 | 87.05 | 100.00 | -0.246   | -0.490   |
 
-**Observations:**  
+**Observations:**
+
 - The cohort demonstrates strong overall engagement, with an average lecture attendance of $77.85\%$ and an average assignment score of $85.06\%$.
 - The average final exam score ($78.11$ points) closely aligns with the median ($79.40$), with mild negative skewness ($-0.246$) confirming standard bell-curve behavior without severe floor or ceiling compression.
 
@@ -86,22 +88,22 @@ Summary statistics were compiled across all 398 clean records (`reports/tables/d
 
 Eight figures were rendered at 150 DPI in `reports/figures/`:
 
-1. **Figure 01 (`fig01_final_score_hist.png`):**  
-   *Distribution of Final Scores:* Shows an approximately normal, unimodal distribution centered near 78 points. The kernel density curve confirms the absence of bimodal clustering or artificial truncation.
-2. **Figure 02 (`fig02_corr_heatmap.png`):**  
-   *Correlation Heatmap:* Illustrates positive pairwise correlations between all five pre-final predictors and `final_score`. The strongest correlations are observed with `midterm_score` ($r = 0.81$) and `assignment_avg` ($r = 0.72$).
-3. **Figure 03 (`fig03_midterm_vs_final.png`):**  
-   *Midterm vs. Final Score Regression:* Demonstrates a strong, linear bivariate relationship across the entire scoring spectrum, validating `midterm_score` as the premier single predictor.
-4. **Figure 04 (`fig04_attendance_box.png`):**  
-   *Attendance Tier Distributions:* Categorized into Low ($<70\%$), Medium ($70-89\%$), and High ($\ge 90\%$). Students in the high attendance tier achieve a median final score over 85, whereas students in the low attendance tier exhibit substantially wider variance and a median below 68.
-5. **Figure 05 (`fig05_study_vs_final.png`):**  
-   *Weekly Study Hours vs. Final Score:* Reveals a steady upward slope, where students dedicating $>25$ hours/week reliably score above 75 points.
-6. **Figure 06 (`fig06_pairplot.png`):**  
-   *Pairwise Matrix:* Confirms monotonic relationships across all pairs of predictors without severe non-linear bends.
-7. **Figure 07 (`fig07_outliers.png`):**  
-   *Outlier Boxplots:* Demonstrates that points beyond $1.5 \times \text{IQR}$ in midterms and final scores remain within valid pedagogical boundaries ($25-100\%$) and reflect real student performance rather than recording defects.
-8. **Figure 08 (`fig08_gpa_vs_final.png`):**  
-   *Historical GPA vs. Final Score:* Displays a strong positive relationship ($r = 0.68$), confirming that foundational cumulative performance serves as a dependable lower bound for final course mastery.
+1. **Figure 01 (`fig01_final_score_hist.png`):**\
+   _Distribution of Final Scores:_ Shows an approximately normal, unimodal distribution centered near 78 points. The kernel density curve confirms the absence of bimodal clustering or artificial truncation.
+2. **Figure 02 (`fig02_corr_heatmap.png`):**\
+   _Correlation Heatmap:_ Illustrates positive pairwise correlations between all five pre-final predictors and `final_score`. The strongest correlations are observed with `midterm_score` ($r = 0.81$) and `assignment_avg` ($r = 0.72$).
+3. **Figure 03 (`fig03_midterm_vs_final.png`):**\
+   _Midterm vs. Final Score Regression:_ Demonstrates a strong, linear bivariate relationship across the entire scoring spectrum, validating `midterm_score` as the premier single predictor.
+4. **Figure 04 (`fig04_attendance_box.png`):**\
+   _Attendance Tier Distributions:_ Categorized into Low ($<70\%$), Medium ($70-89\%$), and High ($\ge 90\%$). Students in the high attendance tier achieve a median final score over 85, whereas students in the low attendance tier exhibit substantially wider variance and a median below 68.
+5. **Figure 05 (`fig05_study_vs_final.png`):**\
+   _Weekly Study Hours vs. Final Score:_ Reveals a steady upward slope, where students dedicating $>25$ hours/week reliably score above 75 points.
+6. **Figure 06 (`fig06_pairplot.png`):**\
+   _Pairwise Matrix:_ Confirms monotonic relationships across all pairs of predictors without severe non-linear bends.
+7. **Figure 07 (`fig07_outliers.png`):**\
+   _Outlier Boxplots:_ Demonstrates that points beyond $1.5 \times \text{IQR}$ in midterms and final scores remain within valid pedagogical boundaries ($25-100\%$) and reflect real student performance rather than recording defects.
+8. **Figure 08 (`fig08_gpa_vs_final.png`):**\
+   _Historical GPA vs. Final Score:_ Displays a strong positive relationship ($r = 0.68$), confirming that foundational cumulative performance serves as a dependable lower bound for final course mastery.
 
 ---
 
@@ -122,8 +124,9 @@ Addressing the seven mandatory exploratory questions (`reports/tables/eda_findin
 ## 8. Machine Learning Pipeline Formulation
 
 To prevent data leakage, the entire modeling workflow adheres to the following principles:
+
 - **Partitioning:** The clean dataset of 398 rows was partitioned into **318 training samples ($79.9\%$)** and **80 holdout testing samples ($20.1\%$)** using `random_state=42`.
-- **Pipeline Scaling:** Feature scaling via `StandardScaler` was fit *strictly on training data* ($X_{\text{train}}$) and serialized within a scikit-learn `Pipeline`.
+- **Pipeline Scaling:** Feature scaling via `StandardScaler` was fit _strictly on training data_ ($X_{\text{train}}$) and serialized within a scikit-learn `Pipeline`.
 - **Target Seclusion:** `final_score` was completely excluded from feature sets.
 - **Candidate Models:**
   1. Multiple Linear Regression (Parametric Baseline)
@@ -136,13 +139,14 @@ To prevent data leakage, the entire modeling workflow adheres to the following p
 
 Models were evaluated on train, holdout test, and 5-fold cross-validation on the training set (`reports/tables/model_comparison.csv`):
 
-| Model Name | Train MAE | Test MAE | Train RMSE | Test RMSE | Train $R^2$ | Test $R^2$ | 5-Fold CV $R^2$ (Mean $\pm$ Std) | 5-Fold CV RMSE |
-|---|---|---|---|---|---|---|---|---|
-| **Multiple Linear Regression** | 3.090 | **2.627** | 3.913 | **3.393** | 0.8881 | **0.9288** | **0.8815 $\pm$ 0.0176** | **3.971** |
-| **Ridge Regression ($\alpha=1.0$)** | 3.090 | 2.627 | 3.913 | 3.394 | 0.8881 | 0.9288 | 0.8816 $\pm$ 0.0176 | 3.970 |
-| **Random Forest Regressor** | 1.264 | 3.148 | 1.617 | 4.020 | 0.9809 | 0.9000 | 0.8542 $\pm$ 0.0255 | 4.397 |
+| Model Name                          | Train MAE | Test MAE  | Train RMSE | Test RMSE | Train $R^2$ | Test $R^2$ | 5-Fold CV $R^2$ (Mean $\pm$ Std) | 5-Fold CV RMSE |
+| ----------------------------------- | --------- | --------- | ---------- | --------- | ----------- | ---------- | -------------------------------- | -------------- |
+| **Multiple Linear Regression**      | 3.090     | **2.627** | 3.913      | **3.393** | 0.8881      | **0.9288** | **0.8815** **$\pm$** **0.0176**  | **3.971**      |
+| **Ridge Regression ($\alpha=1.0$)** | 3.090     | 2.627     | 3.913      | 3.394     | 0.8881      | 0.9288     | 0.8816 $\pm$ 0.0176              | 3.970          |
+| **Random Forest Regressor**         | 1.264     | 3.148     | 1.617      | 4.020     | 0.9809      | 0.9000     | 0.8542 $\pm$ 0.0255              | 4.397          |
 
 ### Residual & Prediction Diagnostics
+
 - **Figure 09 (`fig09_residuals.png`):** Shows homoscedastic residual scatter symmetrically distributed around zero across all predicted values, and an approximately normal error histogram with mean zero.
 - **Figure 10 (`fig10_actual_vs_pred.png`):** Displays holdout test set actual vs. predicted values clustered tightly along the theoretical $45^\circ$ perfect-prediction line.
 
@@ -151,11 +155,13 @@ Models were evaluated on train, holdout test, and 5-fold cross-validation on the
 ## 10. Model Selection Rationale
 
 The specification defines three explicit selection rules:
+
 1. **Lowest Test RMSE.**
 2. **Parsimony / Simplicity Preference:** If test RMSE differences are $< 2\%$, prefer the simpler linear baseline.
 3. **Overfitting Avoidance:** Reject models where $R^2_{\text{train}} - R^2_{\text{test}} > 0.15$.
 
 **The Decision:** **Multiple Linear Regression** is crowned Champion:
+
 - Multiple Linear Regression achieved a **Test RMSE of 3.393**, directly outperforming Random Forest (Test RMSE of 4.020) by **$15.6\%$**.
 - Random Forest showed evidence of training memorization ($R^2_{\text{train}} = 0.9809$ vs $R^2_{\text{test}} = 0.9000$).
 - Linear Regression exhibited negligible generalization gap ($R^2_{\text{train}} = 0.8881$ vs $R^2_{\text{test}} = 0.9288$), well within the $0.15$ threshold.
@@ -167,16 +173,18 @@ The specification defines three explicit selection rules:
 
 ### Standardized & Unstandardized Coefficients (`reports/tables/coefficients.csv`)
 
-| Feature | Standardized Coef ($\beta$) | Unstandardized Coef ($B$) | Interpretability Meaning |
-|---|---|---|---|
-| `midterm_score` | **+4.0621** | **+0.3011** | An increase of 10 midterm points is associated with a **+3.01 point** increase in final score. |
-| `study_hours_week` | **+2.1891** | **+0.3968** | Each additional 5 hours of study per week is associated with a **+1.98 point** gain in final score. |
-| `previous_gpa` | **+2.0560** | **+4.3972** | A 0.5 point increase in prior cumulative GPA is associated with a **+2.20 point** increase in final score. |
-| `assignment_avg` | **+2.0312** | **+0.1882** | A 10 point increase in assignment average is associated with a **+1.88 point** gain in final score. |
-| `attendance_pct` | **+1.9774** | **+0.1907** | A 10% increase in lecture attendance is associated with a **+1.91 point** increase in final score. |
+| Feature            | Standardized Coef ($\beta$) | Unstandardized Coef ($B$) | Interpretability Meaning                                                                                   |
+| ------------------ | --------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `midterm_score`    | **+4.0621**                 | **+0.3011**               | An increase of 10 midterm points is associated with a **+3.01 point** increase in final score.             |
+| `study_hours_week` | **+2.1891**                 | **+0.3968**               | Each additional 5 hours of study per week is associated with a **+1.98 point** gain in final score.        |
+| `previous_gpa`     | **+2.0560**                 | **+4.3972**               | A 0.5 point increase in prior cumulative GPA is associated with a **+2.20 point** increase in final score. |
+| `assignment_avg`   | **+2.0312**                 | **+0.1882**               | A 10 point increase in assignment average is associated with a **+1.88 point** gain in final score.        |
+| `attendance_pct`   | **+1.9774**                 | **+0.1907**               | A 10% increase in lecture attendance is associated with a **+1.91 point** increase in final score.         |
 
 ### Random Forest Gini Importances (`reports/tables/feature_importance.csv`)
+
 The tree ensemble independently corroborates the linear hierarchy:
+
 1. `midterm_score`: $0.4410$
 2. `assignment_avg`: $0.2355$
 3. `previous_gpa`: $0.1192$
@@ -191,20 +199,20 @@ Both linear modeling and non-linear bagging agree that **mid-semester examinatio
 
 The champion pipeline was deployed to evaluate synthetic edge archetypes (`reports/tables/custom_predictions.csv`):
 
-| Scenario Profile | Key Attributes | Predicted Final Score | Pedagogical Context |
-|---|---|---|---|
-| **High Attendance, Low Midterm** | Attendance: $98\%$, Midterm: $45$, GPA: $2.70$, Study: $14$h | **66.1** | High class presence cushions performance, but exam underpreparedness pulls final score into D/C- territory. |
-| **Low Attendance, High GPA (Fast Learner)** | Attendance: $55\%$, Midterm: $88$, GPA: $3.85$, Study: $26$h | **83.3** | High conceptual ability and strong self-study compensate for missed classroom lectures. |
-| **Median Student Benchmark** | Attendance: $78\%$, Midterm: $79$, GPA: $3.00$, Study: $21$h | **78.0** | Matches the cohort central tendency exactly. |
-| **High Effort, Low Assignments** | Attendance: $95\%$, Midterm: $72$, GPA: $2.90$, Study: $34$h | **79.5** | High self-study effort and attendance counterbalance assignment difficulties. |
+| Scenario Profile                            | Key Attributes                                               | Predicted Final Score | Pedagogical Context                                                                                         |
+| ------------------------------------------- | ------------------------------------------------------------ | --------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **High Attendance, Low Midterm**            | Attendance: $98\%$, Midterm: $45$, GPA: $2.70$, Study: $14$h | **66.1**              | High class presence cushions performance, but exam underpreparedness pulls final score into D/C- territory. |
+| **Low Attendance, High GPA (Fast Learner)** | Attendance: $55\%$, Midterm: $88$, GPA: $3.85$, Study: $26$h | **83.3**              | High conceptual ability and strong self-study compensate for missed classroom lectures.                     |
+| **Median Student Benchmark**                | Attendance: $78\%$, Midterm: $79$, GPA: $3.00$, Study: $21$h | **78.0**              | Matches the cohort central tendency exactly.                                                                |
+| **High Effort, Low Assignments**            | Attendance: $95\%$, Midterm: $72$, GPA: $2.90$, Study: $34$h | **79.5**              | High self-study effort and attendance counterbalance assignment difficulties.                               |
 
-On the holdout test set of 80 real students, the model yielded a mean absolute error of **$\pm 2.63$ points**, indicating that predictions are accurate within less than three points on a 100-point scale.
+On the holdout test set of 80 real students, the model yielded a mean absolute error of **$\pm 2.63$** **points**, indicating that predictions are accurate within less than three points on a 100-point scale.
 
 ---
 
 ## 13. Limitations & Risk Analysis
 
-1. **Non-Causal Association:** All coefficients and importances reflect statistical correlations (*"associated with"*). Mandating higher study hours or taking attendance does not deterministically cause an increase in scores if study quality remains unchanged.
+1. **Non-Causal Association:** All coefficients and importances reflect statistical correlations (_"associated with"_). Mandating higher study hours or taking attendance does not deterministically cause an increase in scores if study quality remains unchanged.
 2. **Self-Reported Study Hours:** Extracurricular study time is subject to reporting bias and social desirability distortion.
 3. **Cohort Specificity:** The dataset represents a single academic discipline; generalized transfer across distinct curricula (e.g. humanities vs. laboratory sciences) requires cross-institutional recalibration.
 4. **Leakage & Red Flag Audit:** The final test $R^2$ of $0.9288$ is well beneath the $0.98$ red-flag threshold, and cross-validation standard deviation is low ($0.0176$), confirming genuine, generalizable predictive power.
@@ -214,6 +222,7 @@ On the holdout test set of 80 real students, the model yielded a mean absolute e
 ## 14. Conclusions & Next Steps
 
 This project successfully engineered and validated an end-to-end, leak-free regression pipeline for student score prediction:
+
 - **Baseline Superiority:** Multiple Linear Regression outperformed Random Forest on holdout testing, achieving an RMSE of $3.393$ points and explaining $92.9\%$ of target variance.
 - **Actionable Diagnostic Value:** With an average test error of just $2.63$ points, academic advisors can reliably detect students at risk of underperformance midway through a term.
 - **Next Steps:**
@@ -227,7 +236,7 @@ This project successfully engineered and validated an end-to-end, leak-free regr
 
 To reproduce the complete pipeline from scratch:
 
-```bash
+```Shell
 # 1. Install dependencies
 pip install -r requirements.txt
 
@@ -254,7 +263,7 @@ python src/predict.py
 pytest tests/
 ```
 
-- **Master Configuration:** [`config.yaml`](file:///D:/Sv23/Data_Analysis/config.yaml)  
-- **Cleaned Data:** [`data/interim/students_clean.csv`](file:///D:/Sv23/Data_Analysis/data/interim/students_clean.csv)  
-- **Model Comparison Table:** [`reports/tables/model_comparison.csv`](file:///D:/Sv23/Data_Analysis/reports/tables/model_comparison.csv)  
-- **Serialized Champion Model:** [`models/best_model.joblib`](file:///D:/Sv23/Data_Analysis/models/best_model.joblib)  
+- **Master Configuration:** [`config.yaml`](file:///D:/Sv23/Data_Analysis/config.yaml)
+- **Cleaned Data:** [`data/interim/students_clean.csv`](file:///D:/Sv23/Data_Analysis/data/interim/students_clean.csv)
+- **Model Comparison Table:** [`reports/tables/model_comparison.csv`](file:///D:/Sv23/Data_Analysis/reports/tables/model_comparison.csv)
+- **Serialized Champion Model:** [`models/best_model.joblib`](file:///D:/Sv23/Data_Analysis/models/best_model.joblib)
