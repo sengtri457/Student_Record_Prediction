@@ -6,6 +6,15 @@ Built strictly according to the multi-agent specification pack in [`student-scor
 
 ---
 
+## Guides & Presentation Scripts
+
+| Stage | Comprehensive Technical Guide | Step-by-Step Teacher Guide | Bilingual Presentation Script |
+| :--- | :--- | :--- | :--- |
+| **Part A – Data Analysis** | [`docs/PART_A_DATA_ANALYSIS_GUIDE.md`](docs/PART_A_DATA_ANALYSIS_GUIDE.md) | Included in Guide | [`docs/PART_A_PRESENTATION_SCRIPT.md`](docs/PART_A_PRESENTATION_SCRIPT.md) |
+| **Part B – Machine Learning** | [`docs/PART_B_MACHINE_LEARNING_GUIDE.md`](docs/PART_B_MACHINE_LEARNING_GUIDE.md) | [`docs/PART_B_STEP_BY_STEP_TEACHER_GUIDE.md`](docs/PART_B_STEP_BY_STEP_TEACHER_GUIDE.md) | [`docs/PART_B_PRESENTATION_SCRIPT.md`](docs/PART_B_PRESENTATION_SCRIPT.md) |
+
+---
+
 ## Performance Summary
 
 | Model | Test MAE | Test RMSE | Test $R^2$ | 5-Fold CV $R^2$ | Status |
